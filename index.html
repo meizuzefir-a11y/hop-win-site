@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HOP WIN | Basketball Club</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#080810;
+    color:white;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:
+    radial-gradient(circle,#5b21b6,#080810 60%);
+}
+
+.logo{
+    font-size:70px;
+    font-weight:900;
+    letter-spacing:5px;
+}
+
+.slogan{
+    margin-top:20px;
+    font-size:22px;
+    color:#c084fc;
+}
+
+.btn{
+    margin-top:40px;
+    padding:15px 35px;
+    border-radius:30px;
+    background:#9333ea;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+section{
+    padding:60px 8%;
+}
+
+
+.title{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+
+.card{
+    background:#11111d;
+    padding:25px;
+    border-radius:20px;
+    border:1px solid #29203d;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#a855f7;
+}
+
+
+.stat{
+    font-size:45px;
+    color:#c084fc;
+    font-weight:bold;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#11111d;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+
+td,th{
+    padding:15px;
+    border-bottom:1px solid #222;
+}
+
+
+th{
+    color:#c084fc;
+}
+
+
+.win{
+    color:#4ade80;
+}
+
+
+.loss{
+    color:#fb7185;
+}
+
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🏀 HOP WIN
+</div>
+
+<div class="slogan">
+PLAY HARD. WIN MORE.
+</div>
+
+
+<p style="margin-top:20px">
+Астана, Сарыарка<br>
+Street Basketball Club<br>
+Founded 01.05.2026
+</p>
+
+
+<a href="#team" class="btn">
+Команда
+</a>
+
+
+</header>
+
+
+
+<section>
+
+
+<h2 class="title">
+Статистика
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="stat">
+17-3
+</div>
+Рекорд команды
+</div>
+
+
+<div class="card">
+<div class="stat">
+85%
+</div>
+Процент побед
+</div>
+
+
+<div class="card">
+<div class="stat">
+#1
+</div>
+Street Basketball
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="team">
+
+
+<h2 class="title">
+Состав
+</h2>
+
+
+<table>
+
+<tr>
+<th>№</th>
+<th>Игрок</th>
+<th>Позиция</th>
+</tr>
+
+
+<tr>
+<td>17</td>
+<td>Никита</td>
+<td>Shooter</td>
+</tr>
+
+
+<tr>
+<td>22 👑</td>
+<td>Давид (C)</td>
+<td>Small Forward</td>
+</tr>
+
+
+<tr>
+<td>48</td>
+<td>Мансур</td>
+<td>Power Forward</td>
+</tr>
+
+
+<tr>
+<td>0</td>
+<td>Андрей</td>
+<td>Shooter</td>
+</tr>
+
+
+<tr>
+<td>1</td>
+<td>Глеб</td>
+<td>Center</td>
+</tr>
+
+
+<tr>
+<td>33</td>
+<td>Авдей</td>
+<td>Small Forward</td>
+</tr>
+
+
+</table>
+
+
+</section>
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Площадки
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+🏫 16 School
+</div>
+
+
+<div class="card">
+🎓 ENU University
+</div>
+
+
+<div class="card">
+🌳 Botanical Garden
+</div>
+
+
+<div class="card">
+🏟️ Coliseum
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Матчи
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="win">
+WIN
+</div>
+21 : 4
+<br>
+vs Local Team
+</div>
+
+
+<div class="card">
+<div class="win">
+WIN
+</div>
+15 : 8
+<br>
+Street Game
+</div>
+
+
+<div class="card">
+<div class="loss">
+LOSS
+</div>
+12 : 15
+<br>
+Rival Team
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<footer>
+
+HOP WIN © 2026  
+<br>
+Play Hard. Win More.
+
+</footer>
+
+
+
+</body>
+</html>
